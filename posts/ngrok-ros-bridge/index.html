@@ -1,0 +1,272 @@
+<!doctype html>
+<html lang="en">
+    <head>    
+
+        <title>Using ngrok for ROS bridge - Ibrahim's Blog</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="Few days ago i have discovered and if this your first time hearing about it. Get ready because it's a life changer.  ngrok allows you to expose a web server running on your local machine behind NATs and firewalls to the internet. No more port forwarding via routers and all this hassle."/>
+        <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,700,700i&display=swap" rel="stylesheet"> 
+        <link rel="stylesheet" href="/assets/css/main.css">
+         
+        
+        
+        
+        
+    </head>
+    <body>
+        
+        <div id="page" class="site style-overflow palette-blue">
+  <header id="masthead" class="site-header dark">
+  <div class="site-header-wrap">
+    <div class="site-header-inside">
+
+      <div class="site-branding">
+        
+        
+        <p class="profile">
+          <a href='/'><img src="/images/avatar.png"
+              class="avatar" alt="Author Avatar" /></a>
+        </p><!-- .profile -->
+        
+        <div class="site-identity">
+          <p class="site-title"><a href='/'>Ibrahim Essam</a></p>
+          
+          
+          <p class="site-description">Robotics Engineer</p>
+          
+        </div><!-- .site-identity -->
+        
+        <button id="menu-toggle" class="menu-toggle"><span class="screen-reader-text">Menu</span><span class="icon-menu"
+            aria-hidden="true"></span></button>
+        
+      </div><!-- .site-branding -->
+
+      
+      <nav id="main-navigation" class="site-navigation" aria-label="Main Navigation">
+        <div class="site-nav-wrap">
+          <div class="site-nav-inside">
+
+            
+            
+            <ul class="menu">
+              
+                
+                
+                <li class="menu-item">
+                  <a  href="https://ibrahimessam.com/">Home</a>
+                </li>
+              
+                
+                
+                <li class="menu-item">
+                  <a  href="/blog/">Blog</a>
+                </li>
+              
+                
+                
+                <li class="menu-item">
+                  <a  href="https://ibrahimessam.com/#about">About</a>
+                </li>
+              
+                
+                
+                <li class="menu-item">
+                  <a  href="https://ibrahimessam.com/#contact">Contact</a>
+                </li>
+              
+            </ul><!-- .menu -->
+            
+            
+            
+            <div class="social-links">
+              
+              
+              
+              <a class="button button-icon" href="https://twitter.com/" target="_blank" rel="noopener">
+                
+                <span class="fab fa-twitter" aria-hidden="true"></span><span class="screen-reader-text">Twitter</span>
+                
+              </a>
+              
+              
+              
+              
+              <a class="button button-icon" href="https://www.instagram.com/ibrahim_essam/" target="_blank" rel="noopener">
+                
+                <span class="fab fa-instagram" aria-hidden="true"></span><span class="screen-reader-text">Instagram</span>
+                
+              </a>
+              
+              
+              
+              
+              <a class="button button-icon" href="https://github.com/HemaZ" target="_blank" rel="noopener">
+                
+                <span class="fab fa-github" aria-hidden="true"></span><span class="screen-reader-text">GitHub</span>
+                
+              </a>
+              
+              
+              
+              
+              <a class="button button-icon" href="https://www.linkedin.com/in/ibrahimessam/" target="_blank" rel="noopener">
+                
+                <span class="fab fa-linkedin" aria-hidden="true"></span><span class="screen-reader-text">LinkedIn</span>
+                
+              </a>
+              
+              
+            </div><!-- .social-links -->
+            
+          </div><!-- .site-nav-inside -->
+        </div><!-- .site-nav-wrap -->
+      </nav><!-- .site-navigation -->
+      
+
+    </div><!-- .site-header-inside -->
+  </div><!-- .site-header-wrap -->
+</header><!-- .site-header -->
+
+  <div id="content" class="site-content">
+    <div class="inner">
+      <main id="main" class="site-main">
+          <article class="post post-full">
+    <header class="post-header inner-sm">
+      <h1 class="post-title underline">Using ngrok for ROS bridge</h1>
+      
+      
+    </header>
+    
+    
+    <div class="post-image">
+      <img src="/images/1.png" alt="Using ngrok for ROS bridge" />
+    </div>
+    
+    <div class="post-content inner-sm">
+      <p>Few days ago i have discovered <a href="https://ngrok.com/">ngrok</a> and if this your first time hearing about it. Get ready because it’s a life changer. 
+ngrok allows you to expose a web server running on your local machine behind NATs and firewalls to the internet. No more port forwarding via routers and all this hassle.
+Using just a simple command as</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>ngrok tcp 22
+</code></pre></div></div>
+
+<p>You will be able to ssh into your machine from anywhere in the world.
+For me this is very helpful to access all the robots im working with remotely. And it’s not always possible to find someone on the other side who can do the port forwarding thing from the router.</p>
+
+<p>In this blog post i will show you how to use ngrok to expose your ROS bridge. But first what is ROS bridge?</p>
+<blockquote>
+  <p>Rosbridge provides a JSON API to ROS functionality for non-ROS programs. There are a variety of front ends that interface with rosbridge, including a WebSocket server for web browsers to interact with. <a href="http://wiki.ros.org/rosbridge_suite">here</a></p>
+</blockquote>
+
+<p>I’m working on a Robotics project with some Web developers to develop a remote dashboard for the robots.
+So we are using Rosbridge heavily in this project. I thought why not to create a ROS package to act as ngrok bridge.</p>
+
+<p>This package offers a ROS service to create tunnels using ngrok. You can clone it to your workspace from <a href="https://github.com/HemaZ/ngrok_ros">here</a> and build it easily using <code class="highlighter-rouge">catkin_make</code> or <code class="highlighter-rouge">catkin_build</code>.
+Then you can run it using <code class="highlighter-rouge">rosrun</code></p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>rosrun ngrok_ros ngrok_ros_bridge.py 
+</code></pre></div></div>
+<p>Now it’s ready to receive requests on the ROS service <code class="highlighter-rouge">/ngrok_ros/start_tunnel</code> or a String message on the topic <code class="highlighter-rouge">/ngrok_ros/start_tunnel</code>.
+The String message data should be in this format <code class="highlighter-rouge">address,protocol,name</code>. And the service is using the ROS service <code class="highlighter-rouge">StartTunnel</code> in the ngrok_ros package.
+Which also has this format.</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>string addr
+string proto
+string name
+<span class="nt">---</span>
+string public_url
+</code></pre></div></div>
+<p>For example you can call it using the command line to create tunnel like this.</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>rosservice call /ngrok_ros/start_tunnel <span class="s2">"addr: '9090'
+proto: 'tcp'
+name: 'ros_bridge'"</span> 
+</code></pre></div></div>
+
+<p>and you should receive back the public url which is something like this.</p>
+<pre><code class="language-language">tcp://2.tcp.ngrok.io:17661
+</code></pre>
+
+<p>Now let’s start the ROS bridge on the same port and use the ngrok public port as an external port for the ros bridge.</p>
+
+<pre><code class="language-language">$ roslaunch rosbridge_server rosbridge_websocket.launch _port:=9090 websocket_external_port:=17661 --screen
+</code></pre>
+
+<p><strong>Bonus</strong></p>
+
+<p><img src="/images/post01/webviz.gif" alt="Webviz" /></p>
+
+<p>You can visualize your ROS topics using Webviz to verify that everything is working as expected.
+Just replace the public url at the end of the following link.</p>
+
+<pre><code class="language-language">https://webviz.io/app/?rosbridge-websocket-url=ws://2.tcp.ngrok.io:17661
+</code></pre>
+
+    </div>
+    <footer class="post-meta inner-sm">
+      <time class="published"
+        datetime="2020-12-25 00:00">Friday, December 25, 2020</time>
+    </footer>
+  </article><!-- .post -->
+
+  <!-- Next/previous post navigation TBD -->
+  <!--
+  <nav class="block block-read-next">
+    <h2 class="block-title underline inner-sm">Read Next</h2>
+    <div class="post-feed">
+      <div class="post-feed-inside">
+        <article class="post post-card">
+          <div class="post-inside">
+            <a class="post-thumbnail" href="#"><img src="#" alt="" /></a>
+            <header class="post-header">
+              <h3 class="post-title"><a href="#" rel="bookmark">Previous Post Title</a></h3>
+            </header>
+            <div class="post-content">
+              <p>Previous post excerpt...</p>
+            </div>
+            <footer class="post-meta">
+              <time class="published" datetime="">Previous post date</time>
+            </footer>
+          </div>
+        </article>
+        <article class="post post-card">
+          <div class="post-inside">
+            <a class="post-thumbnail" href="#"><img src="#" alt="" /></a>
+            <header class="post-header">
+              <h3 class="post-title"><a href="#" rel="bookmark">Next Post Title</a></h3>
+            </header>
+            <div class="post-content">
+              <p>Next post excerpt...</p>
+            </div>
+            <footer class="post-meta">
+              <time class="published" datetime="">Next post date</time>
+            </footer>
+          </div>
+        </article>
+      </div>
+    </div>
+  </nav>
+  -->
+
+      </main><!-- .site-main -->
+      <footer id="colophon" class="site-footer inner-sm">
+  <p class="site-info">
+    
+    
+    <span class="copyright">&copy; Stackbit. All rights reserved. This Jamstack site was created on <a href="https://www.stackbit.com" target="_blank" rel="noopener">Stackbit</a>. Get yours <a href="https://app.stackbit.com/create?theme=fresh" target="_blank" rel="noopener">here</a>.</span>
+    
+    
+  </p><!-- .site-info -->
+  <a id="to-top" class="to-top" href="#page"><span class="icon-arrow-up" aria-hidden="true"></span><span
+      class="screen-reader-text">Back to top</span></a>
+</footer><!-- .site-footer -->
+
+    </div><!-- .inner -->
+  </div><!-- .site-content -->
+</div><!-- .site -->
+
+        <!-- Scripts -->
+        <script src="/assets/js/plugins.js"></script>
+        <script src="/assets/js/main.js"></script>
+    </body> 
+</html>
