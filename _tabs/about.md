@@ -1,8 +1,9 @@
 ---
 # the default layout is 'page'
-layout: about
+layout: post
 icon: fas fa-info-circle
 order: 1
+toc: true
 ---
 
 Hello, My name is Ibrahim Essam. a software engineer from Egypt. 
