@@ -59,6 +59,7 @@ effectively demonstrate use cases of Yonohub.
 * Designed and developed safety and emergency stopping algorithms for The AeroVect Driver to ensure safe operation in all scenarios. 
 * Designed and executed simulations for testing and verification of The AeroVect Driver, ensuring accuracy,robustness and reliabilit of the system.
 * Integrating ROS with the other software components.
+
 <i class="fa fa-terminal"></i> ROS, C++,  Control Theory, Autonomous Driving
 
 ### Bachelor Thesis and Internship @ Mercedes-Benz R&D
@@ -72,34 +73,35 @@ effectively demonstrate use cases of Yonohub.
 and develop improvements.
 * Implementing new Algorithms and Data structures for the Robot in MATLAB.
 * Programming a Graphical User Interface for the System
-<i class="fa fa-terminal"></i> Delta Robots, MATLAB, CANoe].
+
+<i class="fa fa-terminal"></i> Delta Robots, MATLAB, CANoe.
 
 ## Projects
 
-[binance-dca. Python app to setup DCA orders on Binance.](https://github.com/HemaZ/binance-dca)
-[Edrak. C++ Library for Visual SLAM.](https://github.com/HemaZ/Edrak)
-[Pure pursuit ROS package for path tracking.](https://github.com/HemaZ/pure_pursuit)
-[C++ Implementation of a BlockChain.](https://github.com/HemaZ/my_blockchain)
-[ngrok-ros. ROS package for ngrok.](https://github.com/HemaZ/ngrok_ros)
-[ros2-android, ROS2 package to use android's phone sensors.](https://github.com/HemaZ/ros2_android)
-[ROSbag2Videos, Extract videos from ROS bags.](https://github.com/HemaZ/rosbag_2_videos)
-[Teaching an online ROS2 course on Youtube.](https://www.youtube.com/playlist?list=PLWIFvNcdSDQupEsNLnAnCI6MwTqvGgkC1]
-[pclutils a C++ library for working with PointClouds.](https://github.com/HemaZ/pcl_utils)
-[BaristaBot a robotics simulation package based on ROS and Gazebo.](https://github.com/HemaZ/BaristaBot)
-[CarSim SFML and ROS based Car Simulator.](https://github.com/HemaZ/CarSim)
-[Concurrent Traffic Simulation.](https://github.com/HemaZ/Concurrent-Traffic-Simulation-CPP)
-[Linux System Monitor C++.](https://github.com/HemaZ/CppND-System-Monitor)
-[Route Planning Project using A* C++.](https://github.com/HemaZ/CppND-Route-Planning-Project)
-[Unscented Kalman Filter to estimate the state of multiple cars.](https://github.com/HemaZ/SFND_Unscented_Kalman_Filter)
-[Particles Filter C++ Implementation.](https://github.com/HemaZ/particles_filter)
-[Time To Collision System (TTC) based on Lidar and Camera.](https://github.com/HemaZ/SFND_3D_Object_Tracking)
-[PointClouds Obstacles Detection, Segmentation and Clustering](https://github.com/HemaZ/SFND_Lidar_Obstacle_Detection)
-[Jupyter-ROS (Contributor)  ROS Support for jupyter notebooks](https://github.com/RoboStack/jupyter-ros)
-[Longitudinal and Lateral Control in CARLA Simulator](https://github.com/HemaZ/carla-longlat-control) &emsp; [Video](https://www.youtube.com/watch?v=_ONfGpo1h-4)
-[Deep Reinforcement Learning DQN Agent Playing Space Invaders ]
-(https://github.com/HemaZ/Deep-Reinforcement-Learning) &emsp; [Video](https://www.youtube.com/watch?v=yR3SW-NdS-k&t=3s)
-[Road Semantic Segmentation Using Fully Convolutional Network (FCN) ](https://github.com/HemaZ/sem-seg)
-[Building and Simulating TurtleBot using ROS and Raspberry Pi](https://github.com/HemaZ/AMR_ROS)
-[PID Control of Two-Wheeled Self balancing Robot .](https://www.youtube.com/watch?v=lp5exim_Jro)
-[Yu-Gi-Oh Video Game in Java](https://github.com/HemaZ/yu-gi-oh-java) &emsp; [Video](https://www.youtube.com/watch?v=wY9EOFwh1F0)
+* [binance-dca. Python app to setup DCA orders on Binance.](https://github.com/HemaZ/binance-dca)
+* [Edrak. C++ Library for Visual SLAM.](https://github.com/HemaZ/Edrak)
+* [Pure pursuit ROS package for path tracking.](https://github.com/HemaZ/pure_pursuit)
+* [C++ Implementation of a BlockChain.](https://github.com/HemaZ/my_blockchain)
+* [ngrok-ros. ROS package for ngrok.](https://github.com/HemaZ/ngrok_ros)
+* [ros2-android, ROS2 package to use android's phone sensors.](https://github.com/HemaZ/ros2_android)
+* [ROSbag2Videos, Extract videos from ROS bags.](https://github.com/HemaZ/rosbag_2_videos)
+* [Teaching an online ROS2 course on Youtube.](https://www.youtube.com/playlist?list=PLWIFvNcdSDQupEsNLnAnCI6MwTqvGgkC1]
+* [pclutils a C++ library for working with PointClouds.](https://github.com/HemaZ/pcl_utils)
+* [BaristaBot a robotics simulation package based on ROS and Gazebo.](https://github.com/HemaZ/BaristaBot)
+* [CarSim SFML and ROS based Car Simulator.](https://github.com/HemaZ/CarSim)
+* [Concurrent Traffic Simulation.](https://github.com/HemaZ/Concurrent-Traffic-Simulation-CPP)
+* [Linux System Monitor C++.](https://github.com/HemaZ/CppND-System-Monitor)
+* [Route Planning Project using A* C++.](https://github.com/HemaZ/CppND-Route-Planning-Project)
+* [Unscented Kalman Filter to estimate the state of multiple cars.](https://github.com/HemaZ/SFND_Unscented_Kalman_Filter)
+* [Particles Filter C++ Implementation.](https://github.com/HemaZ/particles_filter)
+* [Time To Collision System (TTC) based on Lidar and Camera.](https://github.com/HemaZ/SFND_3D_Object_Tracking)
+* [PointClouds Obstacles Detection, Segmentation and Clustering](https://github.com/HemaZ/SFND_Lidar_Obstacle_Detection)
+* [Jupyter-ROS (Contributor)  ROS Support for jupyter notebooks](https://github.com/RoboStack/jupyter-ros)
+* [Longitudinal and Lateral Control in CARLA Simulator](https://github.com/HemaZ/carla-longlat-control) &emsp; * [Video](https://www.youtube.com/watch?v=_ONfGpo1h-4)
+* [Deep Reinforcement Learning DQN Agent Playing Space Invaders ]
+(https://github.com/HemaZ/Deep-Reinforcement-Learning) &emsp; * [Video](https://www.youtube.com/watch?v=yR3SW-NdS-k&t=3s)
+* [Road Semantic Segmentation Using Fully Convolutional Network (FCN) ](https://github.com/HemaZ/sem-seg)
+* [Building and Simulating TurtleBot using ROS and Raspberry Pi](https://github.com/HemaZ/AMR_ROS)
+* [PID Control of Two-Wheeled Self balancing Robot .](https://www.youtube.com/watch?v=lp5exim_Jro)
+* [Yu-Gi-Oh Video Game in Java](https://github.com/HemaZ/yu-gi-oh-java) &emsp; * [Video](https://www.youtube.com/watch?v=wY9EOFwh1F0)
 
