@@ -3,14 +3,13 @@
 layout: about
 icon: fas fa-info-circle
 order: 1
-toc: true
 ---
 
 Hello, My name is Ibrahim Essam. a software engineer from Egypt. 
 
-# Experience
+## Experience
 
-## Level II Software Integration Engineer @ Kudan
+### Level II Software Integration Engineer @ Kudan
 
 <i class="fa fa-calendar"></i> 11/2021 - Ongoing  &emsp; <i class="fa fa-map-marker"></i> Bristol/UK
 
@@ -26,10 +25,10 @@ ters in their existing systems.
 
 <i class="fa fa-terminal"></i> SLAM, C++, ROS, Python, WebSockets
 
-## R&D Software Engineer @ Avelabs
+### R&D Software Engineer @ Avelabs
 <i class="fa fa-calendar"></i> 09/2018 - 11/2021  &emsp; <i class="fa fa-map-marker"></i> Cairo/Egypt
 
-### Autohears
+#### Autohears
 
 Contributed to the development of Avelab's new Acoustic sensing product (AutoHears) by optimizing and porting existing algorithms to C/C++ for deployment on embedded hardware. 
 
@@ -38,7 +37,7 @@ Contributed to the development of Avelab's new Acoustic sensing product (AutoHea
 * Created ROS packages for the product.
 * Collected datasets to validate our algorithms against it.
 
-### Yonohub
+#### Yonohub
 
 Developer Advocate For Yonohub.com (A cloud-based system for Autonomous Vehicles,
 ADAS, and Robotics).
@@ -51,7 +50,7 @@ effectively demonstrate use cases of Yonohub.
 
 <i class="fa fa-terminal"></i> Autonomous Vehicles, ROS, Autoware, ML/DL, Cloud, Embedded Boards
 
-## Motion Planning and Control Engineer @ AeroVect
+### Motion Planning and Control Engineer @ AeroVect
 
 <i class="fa fa-calendar"></i> 11/2020 - 11/2021  &emsp; <i class="fa fa-map-marker"></i> Remotely
 
@@ -61,7 +60,7 @@ effectively demonstrate use cases of Yonohub.
 * Integrating ROS with the other software components.
 <i class="fa fa-terminal"></i> ROS, C++,  Control Theory, Autonomous Driving
 
-## Bachelor Thesis and Internship @ Mercedes-Benz R&D
+### Bachelor Thesis and Internship @ Mercedes-Benz R&D
 
 <i class="fa fa-calendar"></i> 02/2017 - 08/2017  &emsp; <i class="fa fa-map-marker"></i> Sindelfingen/Germany
 
