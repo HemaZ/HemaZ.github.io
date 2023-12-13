@@ -2,6 +2,7 @@
 # the default layout is 'page'
 icon: fas fa-info-circle
 order: 1
+toc: true
 ---
 
 Hello, My name is Ibrahim Essam. a software engineer from Egypt. 
@@ -48,4 +49,27 @@ effectively demonstrate use cases of Yonohub.
 * Created AVS Datasets for Yonohub, e.g. KITTI, DeepDrive, ApolloScape and Comma.ai
 
 <i class="fa fa-terminal"></i> Autonomous Vehicles, ROS, Autoware, ML/DL, Cloud, Embedded Boards
+
+## Motion Planning and Control Engineer @ AeroVect
+
+<i class="fa fa-calendar"></i> 11/2020 - 11/2021  &emsp; <i class="fa fa-map-marker"></i> Remotely
+
+* Developed and implemented the motion planning and control software stack for The AeroVect Driver.
+* Designed and developed safety and emergency stopping algorithms for The AeroVect Driver to ensure safe operation in all scenarios. 
+* Designed and executed simulations for testing and verification of The AeroVect Driver, ensuring accuracy,robustness and reliabilit of the system.
+* Integrating ROS with the other software components.
+<i class="fa fa-terminal"></i> ROS, C++,  Control Theory, Autonomous Driving
+
+## Bachelor Thesis and Internship @ Mercedes-Benz R&D
+
+<i class="fa fa-calendar"></i> 02/2017 - 08/2017  &emsp; <i class="fa fa-map-marker"></i> Sindelfingen/Germany
+
+* Devleoping a Test Robot for Touch Devices Testing. 
+* Hardware (Robot Construction,Kinematics and Touch Devices)
+* Software (CANoe,CAN-bus,Databases and The Test System)
+* Making Tests on The Touch Devices with the Robot to analyze the state
+and develop improvements.
+* Implementing new Algorithms and Data structures for the Robot in MATLAB.
+* Programming a Graphical User Interface for the System
+<i class="fa fa-terminal"></i> Delta Robots, MATLAB, CANoe}.
 
