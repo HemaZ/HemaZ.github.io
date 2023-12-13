@@ -6,7 +6,7 @@ order: 1
 toc: true
 ---
 
-Hello, My name is Ibrahim Essam. a software engineer from Egypt. 
+Hello, My name is Ibrahim Essam.A software Engineer with a demonstrated history of working in the automotive and Robotics industry. Skilled in ROS, C++, Python, and Computer Vision.
 
 ## Experience
 
@@ -85,7 +85,7 @@ and develop improvements.
 * [ngrok-ros. ROS package for ngrok.](https://github.com/HemaZ/ngrok_ros)
 * [ros2-android, ROS2 package to use android's phone sensors.](https://github.com/HemaZ/ros2_android)
 * [ROSbag2Videos, Extract videos from ROS bags.](https://github.com/HemaZ/rosbag_2_videos)
-* [Teaching an online ROS2 course on Youtube.](https://www.youtube.com/playlist?list=PLWIFvNcdSDQupEsNLnAnCI6MwTqvGgkC1]
+* [Teaching an online ROS2 course on Youtube.](https://www.youtube.com/playlist?list=PLWIFvNcdSDQupEsNLnAnCI6MwTqvGgkC1)
 * [pclutils a C++ library for working with PointClouds.](https://github.com/HemaZ/pcl_utils)
 * [BaristaBot a robotics simulation package based on ROS and Gazebo.](https://github.com/HemaZ/BaristaBot)
 * [CarSim SFML and ROS based Car Simulator.](https://github.com/HemaZ/CarSim)
@@ -98,8 +98,7 @@ and develop improvements.
 * [PointClouds Obstacles Detection, Segmentation and Clustering](https://github.com/HemaZ/SFND_Lidar_Obstacle_Detection)
 * [Jupyter-ROS (Contributor)  ROS Support for jupyter notebooks](https://github.com/RoboStack/jupyter-ros)
 * [Longitudinal and Lateral Control in CARLA Simulator](https://github.com/HemaZ/carla-longlat-control) &emsp; * [Video](https://www.youtube.com/watch?v=_ONfGpo1h-4)
-* [Deep Reinforcement Learning DQN Agent Playing Space Invaders ]
-(https://github.com/HemaZ/Deep-Reinforcement-Learning) &emsp; * [Video](https://www.youtube.com/watch?v=yR3SW-NdS-k&t=3s)
+* [Deep Reinforcement Learning DQN Agent Playing Space Invaders](https://github.com/HemaZ/Deep-Reinforcement-Learning) &emsp; * [Video](https://www.youtube.com/watch?v=yR3SW-NdS-k&t=3s)
 * [Road Semantic Segmentation Using Fully Convolutional Network (FCN) ](https://github.com/HemaZ/sem-seg)
 * [Building and Simulating TurtleBot using ROS and Raspberry Pi](https://github.com/HemaZ/AMR_ROS)
 * [PID Control of Two-Wheeled Self balancing Robot .](https://www.youtube.com/watch?v=lp5exim_Jro)
