@@ -1,5 +1,9 @@
 #  The contact options.
 
+- type: linkedin
+  icon: "fab fa-linkedin" # icons powered by <https://fontawesome.com/>
+  url: "https://www.linkedin.com/in/ibrahimessam/"
+
 - type: github
   icon: "fab fa-github"
 
@@ -10,19 +14,11 @@
   icon: "fas fa-envelope"
   noblank: true # open link in current tab
 
-# - type: rss
-#   icon: "fas fa-rss"
-#   noblank: true
-# Uncomment and complete the url below to enable more contact options
-#
-# - type: mastodon
-#   icon: 'fab fa-mastodon'   # icons powered by <https://fontawesome.com/>
-#   url:  ''                  # Fill with your Mastodon account page, rel="me" will be applied for verification
-#
-- type: linkedin
-  icon: 'fab fa-linkedin'   # icons powered by <https://fontawesome.com/>
-  url:  'https://www.linkedin.com/in/ibrahimessam/'
-#
-# - type: stack-overflow
-#   icon: 'fab fa-stack-overflow'
-#   url:  ''                  # Fill with your stackoverflow homepage
+- type: truthaboutpalestine
+  icon: "fas fa-hand-peace" # icons powered by <https://fontawesome.com/>
+  url: "https://truthaboutpalestine.com/" # Fill with your Mastodon account page, rel="me" will be applied for verification
+
+- type: stand-with-palestine
+  icon: "fas fa-hand-fist" # icons powered by <https://fontawesome.com/>
+  url: "https://stand-with-palestine.org/" # Fill with your Mastodon account page, rel="me" will be applied for verification
+
