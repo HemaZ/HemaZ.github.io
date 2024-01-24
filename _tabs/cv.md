@@ -103,5 +103,5 @@ and develop improvements.
 * [Road Semantic Segmentation Using Fully Convolutional Network (FCN) ](https://github.com/HemaZ/sem-seg)
 * [Building and Simulating TurtleBot using ROS and Raspberry Pi](https://github.com/HemaZ/AMR_ROS)
 * [PID Control of Two-Wheeled Self balancing Robot .](https://www.youtube.com/watch?v=lp5exim_Jro)
-* [Yu-Gi-Oh Video Game in Java](https://github.com/HemaZ/yu-gi-oh-java) &emsp; * [Video](https://www.youtube.com/watch?v=wY9EOFwh1F0)
+* [Yu-Gi-Oh Video Game in Java](https://github.com/HemaZ/yu-gi-oh-java) &emsp; [Video](https://www.youtube.com/watch?v=wY9EOFwh1F0)
 
