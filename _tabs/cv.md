@@ -14,16 +14,16 @@ Hello, my name is Ibrahim Essam, a software engineer with experience working in 
 
 <i class="fa fa-calendar"></i> 11/2021 - Ongoing  &emsp; <i class="fa fa-map-marker"></i> Bristol/UK
 
-* Developed and maintained ROS/ROS2 packages for Kudan’s SLAM Libraries.
-* Developed the Backend of KudanStudio application using Python web frameworks.
-* Developed Python bindings for Kudan’s C++ Libraries.
-* Developed Python app to deploy KudanStudio on customers' hardware.
-* Supported DevOps team in maintaining ROS CI.
-* Developed Kudan’s AMR package and the examples launch files.
-* Prepared Robotics demos for conventions like ROSCon and customers.
-* Continuously evaluated the SLAM algorithms against customer datasets.
-* Supported customer in integrating the ROS packages and tune the SLAM parame-
-ters in their existing systems.
+* Contributed and maintained ROS/ROS2 packages for Kudan's SLAM Libraries.
+* Architected and developed the robust backend of KudanStudio application using the Flask framework, enabling seamless data processing and real-time updates for users.
+* Developed Python bindings for Kudan's C++ Libraries, simplifying integration and allowing a broader range of developers to access our powerful libraries.
+* Developed a Python application to manage KudanStudio deployment to the end users by providing easy to use GUI app made using TKinter framework.
+* Packaged Kudan's applications into Debian packages, making them accessible to a wider audience and simplifying installation for users.
+* Collaborated with the DevOps team to optimize and automate ROS CI processes, resulting in shorter build times and more reliable testing.
+* Developed Kudan's Autonomous Mobile Robotics (AMR) package, including example launch files, to accelerate robotic development and improve navigation capabilities.
+* Prepared Robotics demos for conventions like ROSCon and customers. 
+* Performed ongoing evaluations of SLAM algorithms against diverse customer datasets, leading to algorithm enhancements and ensuring better compatibility with real-world scenarios.
+* Provided expert support to customers, guiding them in seamless integration of ROS packages and fine-tuning SLAM parameters, resulting in improved system performance.
 
 <i class="fa fa-terminal"></i> SLAM, C++, ROS, Python, WebSockets, Docker
 
