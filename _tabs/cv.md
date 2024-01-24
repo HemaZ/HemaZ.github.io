@@ -6,7 +6,7 @@ order: 1
 toc: true
 ---
 
-Hello, My name is Ibrahim Essam.A software Engineer with a demonstrated history of working in the automotive and Robotics industry. Skilled in ROS, C++, Python, and Computer Vision.
+Hello, my name is Ibrahim Essam, a software engineer with experience working in the automotive and robotics industries. I am skilled in ROS, C++, Python, and computer vision.
 
 ## Experience
 
@@ -14,9 +14,10 @@ Hello, My name is Ibrahim Essam.A software Engineer with a demonstrated history 
 
 <i class="fa fa-calendar"></i> 11/2021 - Ongoing  &emsp; <i class="fa fa-map-marker"></i> Bristol/UK
 
-* Created and maintained ROS/ROS2 packages for Kudan’s SLAM Libraries.
+* Developed and maintained ROS/ROS2 packages for Kudan’s SLAM Libraries.
 * Developed the Backend of KudanStudio application using Python web frameworks.
-* Created Python bindings for Kudan’s C++ Libraries.
+* Developed Python bindings for Kudan’s C++ Libraries.
+* Developed Python app to deploy KudanStudio on customers' hardware.
 * Supported DevOps team in maintaining ROS CI.
 * Developed Kudan’s AMR package and the examples launch files.
 * Prepared Robotics demos for conventions like ROSCon and customers.
@@ -24,7 +25,7 @@ Hello, My name is Ibrahim Essam.A software Engineer with a demonstrated history 
 * Supported customer in integrating the ROS packages and tune the SLAM parame-
 ters in their existing systems.
 
-<i class="fa fa-terminal"></i> SLAM, C++, ROS, Python, WebSockets
+<i class="fa fa-terminal"></i> SLAM, C++, ROS, Python, WebSockets, Docker
 
 ### R&D Software Engineer @ Avelabs
 <i class="fa fa-calendar"></i> 09/2018 - 11/2021  &emsp; <i class="fa fa-map-marker"></i> Cairo/Egypt
