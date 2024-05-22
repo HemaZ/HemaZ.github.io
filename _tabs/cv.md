@@ -15,7 +15,7 @@ Hello, my name is Ibrahim Essam, a software engineer with experience working in 
 <i class="fa fa-calendar"></i> 11/2021 - Ongoing  &emsp; <i class="fa fa-map-marker"></i> Bristol/UK
 
 * Contributed and maintained ROS/ROS2 packages for Kudan's SLAM Libraries.
-* Architected and developed the robust backend of KudanStudio application using the Flask framework, enabling seamless data processing and real-time updates for users.
+* Architected and developed the robust backend of KudanStudio application using the FastAPI framework, enabling seamless data processing and real-time updates for users.
 * Developed Python bindings for Kudan's C++ Libraries, simplifying integration and allowing a broader range of developers to access our powerful libraries.
 * Developed a Python application to manage KudanStudio deployment to the end users by providing easy to use GUI app made using TKinter framework.
 * Packaged Kudan's applications into Debian packages, making them accessible to a wider audience and simplifying installation for users.
