@@ -6,7 +6,9 @@ order: 1
 toc: true
 ---
 
-Hello, my name is Ibrahim Essam, a software engineer with experience working in the automotive and robotics industries. I am skilled in ROS, C++, Python, and computer vision.
+## Summary
+
+Software Engineer with 3 years of experience in robotics and computer vision, and 4 years in the automotive industry and embedded systems. Proficient in  C++, ROS/ROS2, and Python, I excel in developing and optimizing advanced algorithms and applications. Passionate about driving innovation and enhancing system performance in real-world scenarios.
 
 ## Experience
 
@@ -20,8 +22,6 @@ Hello, my name is Ibrahim Essam, a software engineer with experience working in 
 * Developed a Python application to manage KudanStudio deployment to the end users by providing easy to use GUI app made using TKinter framework.
 * Packaged Kudan's applications into Debian packages, making them accessible to a wider audience and simplifying installation for users.
 * Collaborated with the DevOps team to optimize and automate ROS CI processes, resulting in shorter build times and more reliable testing.
-* Developed Kudan's Autonomous Mobile Robotics (AMR) package, including example launch files, to accelerate robotic development and improve navigation capabilities.
-* Prepared Robotics demos for conventions like ROSCon and customers. 
 * Performed ongoing evaluations of SLAM algorithms against diverse customer datasets, leading to algorithm enhancements and ensuring better compatibility with real-world scenarios.
 * Provided expert support to customers, guiding them in seamless integration of ROS packages and fine-tuning SLAM parameters, resulting in improved system performance.
 
