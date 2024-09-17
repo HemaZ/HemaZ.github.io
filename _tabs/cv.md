@@ -78,10 +78,10 @@ and develop improvements.
 <i class="fa fa-terminal"></i> Delta Robots, MATLAB, CANoe.
 
 ## Projects
-
-* [binance-dca. Python app to setup DCA orders on Binance.](https://github.com/HemaZ/binance-dca)
+* [Redis-Server. C++ implementation of Redis server.](https://github.com/HemaZ/redis-server)
 * [Edrak. C++ Library for Visual SLAM.](https://github.com/HemaZ/Edrak)
 * [Pure pursuit ROS package for path tracking.](https://github.com/HemaZ/pure_pursuit)
+* [binance-dca. Python app to setup DCA orders on Binance.](https://github.com/HemaZ/binance-dca)
 * [C++ Implementation of a BlockChain.](https://github.com/HemaZ/my_blockchain)
 * [ngrok-ros. ROS package for ngrok.](https://github.com/HemaZ/ngrok_ros)
 * [ros2-android, ROS2 package to use android's phone sensors.](https://github.com/HemaZ/ros2_android)
