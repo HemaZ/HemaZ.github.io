@@ -12,7 +12,7 @@ Software Engineer with 3 years of experience in robotics and computer vision, an
 
 ## Experience
 
-### Level II Software Integration Engineer @ Kudan
+### Senior Software Engineer @ Kudan
 
 <i class="fa fa-calendar"></i> 11/2021 - Ongoing  &emsp; <i class="fa fa-map-marker"></i> Bristol/UK
 
